@@ -1,0 +1,1740 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+
+}
+
+nav .nav1{
+    height: 40px;
+    background-color: #f5f5f5;
+}
+
+
+
+.logo1 img{
+   width: 30px;
+}
+
+.nav1 .logo1:hover{
+    cursor: pointer;
+}
+
+.nav1-elem{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 11px;
+    font-weight: 550;
+    letter-spacing: 1.5px;
+}
+
+.nav1-elem a{
+   text-decoration: none;
+   color: black;
+}
+
+.nav1-elem .elem1 a{
+    width: auto;
+    padding: 3px 10px;
+
+}
+
+.nav1-elem .elem1 a:hover{
+    cursor: pointer;
+    color:rgb(58, 20, 229);
+}
+
+.nav1-elem .elem2 a{
+    border-left: 1px solid black;
+    padding: 3px 10px;
+
+}
+
+.nav1-elem .elem2 a:hover{
+    cursor: pointer;
+    color:rgb(58, 20, 229);
+}
+
+.nav1-elem .elem3 a{
+    border-left: 1px solid black;
+    padding: 3px 10px;
+
+}
+
+.nav1-elem .elem3 a:hover{
+    cursor: pointer;
+    color:rgb(58, 20, 229);
+}
+
+.nav1-elem .elem4 a{
+    border-left: 1px solid black;
+    padding: 3px 10px;
+
+}
+
+.nav1-elem .elem4 a:hover{
+    cursor: pointer;
+    color:rgb(58, 20, 229);
+}
+
+.nav2{
+    height: 60px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+
+.nav2 img{
+    width: 60px;
+}
+
+.nav2-elem{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav2-elem .elem a{
+    font-weight: 550;
+    text-decoration: none;
+    color:black;
+}
+
+.nav2-elem .elem a:hover{
+    cursor: pointer;
+    color:rgba(51, 14, 217, 0.701);
+}
+
+.nav2 #magnifying-glass{
+    display: none;
+}
+
+.nav2 #bar{
+    display: none;
+}
+
+.search{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+input{
+    width: 140px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    background-color: #F5F5F5;
+}
+.search .container{
+    width: 150px;
+    height: 37px;
+    border: none;
+    outline: none;
+    background-color: #F5F5F5;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.contents{
+    height: auto;
+    padding: 0vw 2vw;
+    
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F5F5F5;
+}
+
+.image #join{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5vw;
+
+}
+
+.image #join a{
+    font-size: 1.5vw;
+}
+
+.image1{
+    width: 97vw;
+    height: 70vh;
+    background-image: url(image1.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
+
+}
+
+.image1 p{
+    filter: drop-shadow(5px 10px 10px black);
+}
+
+.image1 h1{
+    filter: drop-shadow(5px 10px 10px black);
+}
+
+.image1 button{
+    padding: 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.image1 button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    transition: background-color 0.3s ease-in 0s;
+}
+
+.slogan{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.slogan h1{
+    font-size: 40px;
+}
+
+.slogan p{
+    font-size: 20px;
+}
+
+.slogan button{
+    font-size: 20px;
+    padding: 5px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    outline: none;
+    filter: drop-shadow(5px 5px 5px rgba(30, 29, 29, 0.914));
+}
+
+.slogan button:hover{
+    cursor: pointer;
+    background-color: rgb(254, 251, 251);
+    color: black;
+    transition: background-color 0.2s ease-in 0s;
+    border: 1px solid rgb(67, 66, 66);
+
+}
+
+.items{
+    margin-top: 50px;
+}
+
+.items p{
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+.items-goods{
+    display: flex;
+    overflow: auto;
+    gap: 20px;
+}
+
+.items-goods::-webkit-scrollbar{
+    width: 0px;
+}
+
+.items-goods .item img{
+   width: 25vw;
+}
+
+.items-goods .item p{
+    font-size: 1.5vw;
+    margin-top: 10px;
+
+}
+
+.trending-items .trending{
+    display: flex;
+    gap: 20px;
+    overflow: auto;
+
+}
+
+.trending-items .trending::-webkit-scrollbar{
+    width: 0px;
+}
+
+
+.trending-items #trending{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+/* css for trending items1 */
+
+.trending-items .trending .items1{
+    width: 520px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.trending-items .items1 img{
+    background-color: #F5F5F5
+}
+
+.trending .items1 img{
+    width: 450px;
+}
+
+.trending-items .items1 h4{
+    margin-top: 20px;
+    color:rgb(231, 183, 120)
+}
+
+.trending-items .items1 p{
+    font-weight: bold;
+}
+
+.trending-items .items1 span{
+    color:rgb(103, 102, 102)
+}
+
+.trending-items .items1 .price{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* css for trending items2 */
+
+.trending-items .trending .items2{
+    width: 520px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.trending-items .items2 img{
+    background-color: #F5F5F5
+}
+
+.trending .items2 img{
+    width: 450px;
+}
+
+.trending-items .items2 h4{
+    margin-top: 20px;
+    color:rgb(231, 183, 120)
+}
+
+.trending-items .items2 p{
+    font-weight: bold;
+}
+
+.trending-items .items2 span{
+    color:rgb(103, 102, 102)
+}
+
+.trending-items .items2 .price{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* css for trending items3 */
+
+.trending-items .trending .items3{
+    width: 520px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.trending-items .items3 img{
+    background-color: #F5F5F5
+}
+
+.trending .items3 img{
+    width: 450px;
+}
+
+.trending-items .items3 h4{
+    margin-top: 20px;
+    color:rgb(231, 183, 120)
+}
+
+.trending-items .items3 p{
+    font-weight: bold;
+}
+
+.trending-items .items3 span{
+    color:rgb(103, 102, 102)
+}
+
+.trending-items .items3 .price{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* css for trending items4 */
+
+.trending-items .trending .items4{
+    width: 520px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.trending-items .items4 img{
+    background-color: #F5F5F5
+}
+
+.trending .items4 img{
+    width: 450px;
+}
+
+.trending-items .items4 h4{
+    margin-top: 20px;
+    color:rgb(231, 183, 120)
+}
+
+.trending-items .items4 p{
+    font-weight: bold;
+}
+
+.trending-items .items4 span{
+    color:rgb(103, 102, 102)
+}
+
+.trending-items .items4 .price{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* css for trending items5 */
+
+.trending-items .trending .items5{
+    width: 520px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.trending-items .items5 img{
+    background-color: #F5F5F5
+}
+
+.trending .items5 img{
+    width: 450px;
+}
+
+.trending-items .items5 h4{
+    margin-top: 20px;
+    color:rgb(231, 183, 120)
+}
+
+.trending-items .items5 p{
+    font-weight: bold;
+}
+
+.trending-items .items5 span{
+    color:rgb(103, 102, 102)
+}
+
+.trending-items .items5 .price{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* css for trending items6 */
+
+.trending-items .trending .items6{
+    width: 520px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.trending-items .items6 img{
+    background-color: #F5F5F5
+}
+
+.trending .items6 img{
+    width: 450px;
+}
+
+.trending-items .items6 h4{
+    margin-top: 20px;
+    color:rgb(231, 183, 120)
+}
+
+.trending-items .items6 p{
+    font-weight: bold;
+}
+
+.trending-items .items6 span{
+    color:rgb(103, 102, 102)
+}
+
+.trending-items .items6 .price{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* CSS for explore more */
+.more-explor #more{
+    font-size: 25px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+
+.explore{
+    display: flex;
+    gap: 30px;
+
+}
+
+.explore .men{
+    width: 65vmin;
+    height: 70vmin;
+    background-image: url(https://www.nike.ae/dw/image/v2/BDVB_PRD/on/demandware.static/-/Library-Sites-NikeSharedLibrary/default/dwad2fec28/2023/12/Homepage/PB-.png?q=80);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+}
+
+.explore .women{
+    width: 65vmin;
+    height: 70vmin;
+    background-image: url(https://www.nike.ae/dw/image/v2/BDVB_PRD/on/demandware.static/-/Library-Sites-NikeSharedLibrary/default/dw4848ee91/2023/12/Homepage/PA-min.png?q=80);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.explore .kids{
+    width: 65vmin;
+    height: 70vmin;
+    background-image: url(https://www.nike.ae/dw/image/v2/BDVB_PRD/on/demandware.static/-/Library-Sites-NikeSharedLibrary/default/dw2852ba0a/2023/12/Homepage/PC-min.png?q=80);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+}
+
+.kids button{
+    width: 70px;
+    margin-left: 50px;
+    margin-top: 350px;
+}
+
+
+
+.explore button{
+    display: flex;
+    font-size: 20px;
+    background-color: white;
+    padding: 7px 10px;
+    border-radius: 25px;
+}
+
+.explore button{
+    margin-left: 50px;
+    margin-top: 350px;
+}
+
+.explore button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: background-color 0.3s ease-out 0s;
+}
+
+/* CSS for latest tech */
+.latest-tech #tech{
+    font-size: 25px;
+    margin-top: 90px;
+    margin-bottom: 20px;
+}
+
+.latest-tech .latest{
+    display: flex;
+    gap: 30px;
+    overflow: auto;
+
+}
+
+.latest-tech .latest::-webkit-scrollbar{
+    width: 0px;
+}
+
+/* css for trending items1 */
+ .latest .tech1{
+    width: 450px;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+ }
+
+ .tech1 img{
+    width: 450px;
+ }
+
+  .tech1 p{
+    font-weight: bold;
+   margin-top: 20px;
+}
+
+ .tech1 span{
+    color:rgb(103, 102, 102)
+}
+
+ .tech1 .price{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* css for trending items1 */
+.latest .tech2{
+    width: 450px;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+ }
+
+ .tech2 img{
+    width: 450px;
+ }
+
+  .tech2 p{
+    font-weight: bold;
+   margin-top: 20px;
+}
+
+ .tech2 span{
+    color:rgb(103, 102, 102)
+}
+
+ .tech2 .price{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* css for trending items3 */
+.latest .tech3{
+    width: 450px;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+ }
+
+ .tech3 img{
+    width: 450px;
+ }
+
+  .tech3 p{
+    font-weight: bold;
+   margin-top: 20px;
+}
+
+ .tech3 span{
+    color:rgb(103, 102, 102)
+}
+
+ .tech3 .price{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* css for trending items4 */
+.latest .tech4{
+    width: 450px;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+ }
+
+ .tech4 img{
+    width: 450px;
+ }
+
+  .tech4 p{
+    font-weight: bold;
+   margin-top: 20px;
+}
+
+ .tech4 span{
+    color:rgb(103, 102, 102)
+}
+
+ .tech4 .price{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* css for trending items5 */
+.latest .tech5{
+    width: 450px;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+ }
+
+ .tech5 img{
+    width: 450px;
+ }
+
+  .tech5 p{
+    font-weight: bold;
+   margin-top: 20px;
+}
+
+ .tech5 span{
+    color:rgb(103, 102, 102)
+}
+
+ .tech5 .price{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* css for trending items6 */
+.latest .tech6{
+    width: 450px;
+    height: 570px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+ }
+
+ .tech6 img{
+    width: 450px;
+ }
+
+  .tech6 p{
+    font-weight: bold;
+   margin-top: 20px;
+}
+
+ .tech6 span{
+    color:rgb(103, 102, 102)
+}
+
+ .tech6 .price{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+.nike-membership #nike{
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+
+.membership{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+
+}
+
+/* CSS FOR MEMBER 1 */
+
+.member1{
+    width: 30vw;
+    height: 60vmin;
+    background-image: url(member1.png);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.member1 .caption{
+    width: 30vw;
+    height: 60vmin;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+.caption h3{
+    color: white;
+    filter: drop-shadow(5px 10px 10px black);
+}
+
+.caption p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    filter: drop-shadow(5px 10px 10px black);
+}
+
+.caption button{
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    border-radius: 25px;
+    padding: 5px 0px;
+}
+
+.caption button:hover{
+    cursor: pointer;
+    background-color: black;
+    color:white;
+    transition: background-color 0.3s ease-out 0s;
+}
+
+/* CSS FOR MEMBER 2 */
+
+.member2{
+    width: 30vw;
+    height: 60vmin;
+    background-image: url(member2.png);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    display: flex;
+}
+
+.member2 .caption{
+    width: 30vw;
+    height: 60vmin;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+.member2.caption h3{
+    color: white;
+    filter: drop-shadow(5px 10px 10px black);
+}
+
+.member2 .caption p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    filter: drop-shadow(5px 10px 10px black);
+}
+
+.member2 .caption button{
+    width: 120px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    border-radius: 25px;
+    padding: 5px 0px;
+}
+
+.member2 .caption button:hover{
+    cursor: pointer;
+    background-color: black;
+    color:white;
+    transition: background-color 0.3s ease-out 0s;
+}
+
+/* CSS FOR MEMBER 3 */
+
+.member3{
+    width: 30vw;
+    height: 60vmin;
+    background-image: url(member3.png);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    display: flex;
+}
+
+.member3 .caption{
+    width: 30vw;
+    height: 60vmin;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 100px;
+}
+
+.member3 .caption h3{
+    color: white;
+    filter: drop-shadow(5px 10px 10px black);
+}
+
+.member3 .caption p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    filter: drop-shadow(5px 10px 10px black);
+}
+
+.member3 .caption button{
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    border-radius: 25px;
+    padding: 5px 0px;
+}
+
+.member3 .caption button:hover{
+    cursor: pointer;
+    background-color: black;
+    color:white;
+    transition: background-color 0.3s ease-out 0s;
+}
+
+footer{
+    width: 100%;
+}
+
+.shop-container{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 100px;
+   padding-left: 30px;
+}
+
+.shop-container a:hover{
+    cursor: pointer;
+    color:black;
+}
+
+/* CSS FOR SHOP FOOTER */
+
+.Shoes P{
+    font-size: 25px;
+}
+
+.Shoes{
+    margin-top: -2px;
+    display: flex;
+    flex-direction: column;
+    line-height: 45px;
+}
+
+.Shoes a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(114, 113, 113);
+    font-weight: 600;
+}
+
+/* CSS FOR clothing FOOTER */
+
+.clothing P{
+    font-size: 25px;
+}
+
+.clothing{
+    margin-top: -2px;
+    display: flex;
+    flex-direction: column;
+    line-height: 45px;
+}
+
+.clothing a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(114, 113, 113);
+    font-weight: 600;
+}
+
+/* CSS FOR kids FOOTER */
+
+.kids P{
+    font-size: 25px;
+}
+
+.kids{
+    margin-top: -2px;
+    display: flex;
+    flex-direction: column;
+    line-height: 45px;
+}
+
+.kids a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(114, 113, 113);
+    font-weight: 600;
+}
+
+/* CSS FOR featured FOOTER */
+
+.featured P{
+    font-size: 25px;
+}
+
+.featured{
+    margin-top: -2px;
+    display: flex;
+    flex-direction: column;
+    line-height: 45px;
+}
+
+.featured a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgb(114, 113, 113);
+    font-weight: 600;
+}
+
+.final-footer{
+    height: 30vh;
+    background-color: black;
+    margin-top: 50px;
+    display: flex;
+    padding: 0px 100px;
+    justify-content: space-between;
+
+}
+
+.idea{
+    display: flex;
+    padding: 0px 100px;
+    gap:50px;
+}
+
+
+/* CSS FOR STORE FOOTER */
+
+.store{
+    margin-top: 40px;
+}
+
+.store a{
+    text-decoration: none;
+    color: white;
+    line-height: 30px;
+}
+.store a:hover{
+    cursor: pointer;
+    color:rgb(114, 113, 113);
+}
+
+/* CSS FOR HELP FOOTER */
+
+.help h5{
+    color: white;
+    margin-top: 40px;
+}
+
+.help h5:hover{
+    cursor: pointer;
+    color:rgb(114, 113, 113);
+}
+
+.help p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 30px;
+    color:rgb(143, 143, 143);
+}
+
+.help p:hover{
+    cursor: pointer;
+    color: white;
+}
+
+/* CSS FOR ABOUT FOOTER */
+
+.about h5{
+    color: white;
+    margin-top: 40px;
+}
+
+.about h5:hover{
+    cursor: pointer;
+    color:rgb(114, 113, 113);
+}
+
+.about p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 30px;
+    color:rgb(143, 143, 143);
+}
+
+.about p:hover{
+    cursor: pointer;
+    color: white;
+}
+
+/* CSS FOR apps FOOTER */
+
+.apps h5{
+    color: white;
+    margin-top: 40px;
+}
+
+.apps h5:hover{
+    cursor: pointer;
+    color:rgb(114, 113, 113);
+}
+
+.apps p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 30px;
+    color:rgb(143, 143, 143);
+}
+
+.apps p:hover{
+    cursor: pointer;
+    color: white;
+}
+
+
+.icon{
+    display: flex;
+    gap: 30px;
+}
+
+.twitter{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(170, 168, 168);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.twitter:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+.twitter a{
+    color:black;
+    font-size: 20px;
+}
+
+
+.facebook{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(170, 168, 168);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.facebook:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+.facebook a{
+    color:black;
+    font-size: 20px;
+}
+
+.youtube{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(170, 168, 168);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.youtube:hover{
+    cursor: pointer;
+    background-color: white;
+}
+
+.youtube a{
+    color:black;
+    font-size: 20px;
+}
+
+.end-footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.location{
+    color: white;
+    padding: 30px 100px;
+    display: flex;
+    gap: 10px;
+}
+
+
+.location p{
+    font-size: 13px;
+}
+
+.location p:hover{
+    cursor: pointer;
+    color:rgb(114, 113, 113);
+}
+
+.conditions{
+    display: flex;
+    gap:50px;
+    padding: 30px 100px;
+}
+
+.conditions p{
+    font-size: 13px;
+    color:rgb(143, 143, 143);
+}
+
+.conditions p:hover{
+    cursor: pointer;
+    color: white;
+}
+
+
+/* FOR RESPONSIVE DESIGN */
+
+@media (max-width:600px) {
+
+  .nav1{
+    display: none;
+  }
+
+  .nav2-elem .elem{
+    display: none;
+  }
+  .nav2{
+    padding: 20px;
+  }
+
+  .nav2 .container{
+    display: none;
+  }
+
+  .nav2 #magnifying-glass{
+    display: block;
+}
+
+.nav2 #bar{
+    display: block;
+}
+    
+.contents{
+    height: auto;
+    padding-left: 10px;
+}
+.image{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 0px -50px;
+   
+}
+
+.image #join{
+    height: 12vmin;
+    font-size: 3.5vmin;
+
+}
+
+.image #join a{ 
+    font-size: 3.5vmin;
+
+    
+}
+
+.image1{
+    width: 100vmin;
+    height: 50vmin;
+    background-image: url(image1.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 3.5vw;
+
+}
+
+.image1 p{
+    filter: drop-shadow(5px 10px 10px black);
+}
+
+.image1 h1{
+    filter: drop-shadow(5px 10px 10px black);
+}
+
+.image1 button{
+    padding: 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.image1 button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    transition: background-color 0.3s ease-in 0s;
+}
+
+.slogan{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.slogan h1{
+    font-size: 40px;
+}
+
+.slogan p{
+    font-size: 20px;
+}
+
+.slogan button{
+    font-size: 20px;
+    padding: 5px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    outline: none;
+    filter: drop-shadow(5px 5px 5px rgba(30, 29, 29, 0.914));
+}
+
+.slogan button:hover{
+    cursor: pointer;
+    background-color: rgb(254, 251, 251);
+    color: black;
+    transition: background-color 0.2s ease-in 0s;
+    border: 1px solid rgb(67, 66, 66);
+}
+
+.slogan h1{
+    font-size: 25px;
+}
+.slogan p{
+    font-size: 12px;
+}
+
+.items-goods{
+    display: flex;
+    gap: 10px;
+    width: 100vw;
+    
+}
+
+.items-goods .item img{
+    width: 85vmin;
+    margin-right: 15px;
+    margin-left: 35px;
+}
+
+.items-goods .item p{
+    font-size: 25px;
+    margin-left: 25px;
+}
+
+ .trending{
+    padding: 50px 20px;
+ }
+
+.trending-items .trending .items1{
+    width: 100vw;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-position: center;
+
+}
+
+.trending .items1 img{
+    width: 90vw;
+    height: 50vh;
+}
+
+.trending-items .trending .items2{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-position: center;
+
+}
+
+.trending .items2 img{
+    width: 90vw;
+    height: 50vh;
+}
+.trending-items .trending .items3{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-position: center;
+
+}
+
+.trending .items3 img{
+    width: 90vw;
+    height: 50vh;
+}
+.trending-items .trending .items4{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-position: center;
+
+}
+
+.trending .items4 img{
+    width: 90vw;
+    height: 50vh;
+}
+.trending-items .trending .items5{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-position: center;
+
+}
+
+.trending .items5 img{
+    width: 90vw;
+    height: 50vh;
+}
+.trending-items .trending .items6{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-position: center;
+
+}
+
+.trending .items6 img{
+    width: 90vw;
+    height: 50vh;
+}
+
+
+
+.more-explor #more{
+    font-size: 25px;
+    margin-top: -100px;
+    margin-bottom: 30px;
+}
+
+
+.explore{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+
+}
+
+.explore .men{
+    width: 100vw;
+    height: 50vh;
+    background-image: url(https://www.nike.ae/dw/image/v2/BDVB_PRD/on/demandware.static/-/Library-Sites-NikeSharedLibrary/default/dwad2fec28/2023/12/Homepage/PB-.png?q=80);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+
+}
+
+.explore .women{
+    width: 100vw;
+    height: 50vh;
+    background-image: url(https://www.nike.ae/dw/image/v2/BDVB_PRD/on/demandware.static/-/Library-Sites-NikeSharedLibrary/default/dw4848ee91/2023/12/Homepage/PA-min.png?q=80);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.explore .kids{
+    width: 100vw;
+    height: 50vh;
+    background-image: url(https://www.nike.ae/dw/image/v2/BDVB_PRD/on/demandware.static/-/Library-Sites-NikeSharedLibrary/default/dw2852ba0a/2023/12/Homepage/PC-min.png?q=80);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.explore button{
+    display: flex;
+    font-size: 20px;
+    background-color: white;
+    padding: 7px 10px;
+    border-radius: 25px;
+}
+
+.explore button{
+    margin-left: 50px;
+    margin-top: 250px;
+}
+
+.explore button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: background-color 0.3s ease-out 0s;
+}
+
+.latest{
+    display: flex;
+    gap: 100px;
+    margin-left: 20px;
+}
+
+.latest img{
+    width: 90vw;
+}
+
+/* member responsive */
+
+.nike-membership #nike{
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+
+.membership{
+    display: flex;
+    gap:30px;
+    flex-direction: column;
+    padding-left: 0px;
+
+}
+
+
+
+/* CSS FOR MEMBER 1 */
+
+.member1{
+    width: 100vw;
+    height: 50vh;
+    background-image: url(member1.png);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 25px;
+
+}
+
+.member1 .caption{
+    width: 100vw;
+    height: 60vmin;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 200px;
+}
+
+.member2{
+    width: 100vw;
+    height: 50vh;
+    background-image: url(member2.png);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 25px;
+
+}
+
+.member2 .caption{
+    width: 100vw;
+    height: 60vmin;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 200px;
+}
+
+.member3{
+    width: 100vw;
+    height: 50vh;
+    background-image: url(member3.png);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    display: flex;
+    margin-left: 25px;
+
+}
+
+.member3 .caption{
+    width: 100vw;
+    height: 60vmin;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 200px;
+}
+
+.shop-container{
+    gap: 30px;
+    font-size: 15px;
+}
+
+.final-footer{
+    background-color: white;
+    margin-top: 50px;
+   padding: 30px 30px;
+   flex-direction: column;
+   height: auto;
+   border-top: 2px solid black;
+   margin-left: 30px;
+}
+
+.idea{
+    display: flex;
+    padding: 0px 0px;
+    gap:10px;
+    flex-direction: column;
+   
+}
+.idea .help p{
+    display: none;
+}
+
+.idea h5{
+    color: black;
+}
+
+.idea .about p{
+    display: none;
+}
+
+.idea .apps p{
+    display: none;
+}
+
+.end-footer{
+    flex-direction: column;
+    padding: 0px;
+   
+}
+
+.end-footer{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+.location{
+    display: none;
+}
+
+.location i{
+    color: black;
+}
+
+.location p{
+    color: black;
+}
+
+.conditions{
+    display: flex;
+    gap:50px;
+    padding: 30px 100px;
+}
+
+.location{
+    color: white;
+    padding: 30px 100px;
+    display: flex;
+    gap: 10px;
+    padding: 30px 30px;
+}
+
+.conditions{
+    display: flex;
+    gap:50px;
+    padding: 30px 30px;
+    flex-direction: column;
+}
+
+}
